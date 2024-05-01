@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="sun.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Report</h1>
+        
+        <input type="text" placeholder="Enter a place name...">
+        <button id="find"><i class="ri-search-line"></i></button>
+    
+        <div class="box">
+            <h1 id="cityName"></h1>
+            <div class="live"><img src="clear.webp" alt=""></div>
+            <h2 id="temp"> &degC</h2>
+            <div class="live space">
+                <h2 id="hum">Humidity</h2>
+                <h2 id="long">Longetivity</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
